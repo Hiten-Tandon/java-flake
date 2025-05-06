@@ -10,7 +10,7 @@
       system: with import nixpkgs { inherit system; }; {
         devShells.default = mkShell {
           buildInputs = [
-            jetbrains.idea-community-src
+            jetbrains.idea-community-bin
             jdk23
           ];
         };
